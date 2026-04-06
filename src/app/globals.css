@@ -117,6 +117,13 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+/* Whitelabel CSS variables — overridden per-org by the org layout */
+:root {
+  --brand-primary: #6366f1;
+  --brand-secondary: #8b5cf6;
+  --brand-accent: #06b6d4;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
