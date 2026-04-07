@@ -143,16 +143,3 @@ To grant super_admin after first signup:
 UPDATE public.profiles SET is_super_admin = true WHERE email = 'your@email.com';
 ```
 
-## Roadmap
-
-Feature issues are tracked on GitHub:
-
-- [#4 — OKR Objectives CRUD](https://github.com/rsmeurer0/okr-tracker/issues/4)
-- [#5 — Key Results CRUD](https://github.com/rsmeurer0/okr-tracker/issues/5)
-- [#6 — Check-in system](https://github.com/rsmeurer0/okr-tracker/issues/6)
-- [#7 — Dashboard & progress charts](https://github.com/rsmeurer0/okr-tracker/issues/7)
-- [#8 — Whitelabel branding](https://github.com/rsmeurer0/okr-tracker/issues/8)
-- [#9 — Admin panel enhancements](https://github.com/rsmeurer0/okr-tracker/issues/9)
-- [#10 — Email (invites + digest)](https://github.com/rsmeurer0/okr-tracker/issues/10)
-- [#12 — Mobile navigation](https://github.com/rsmeurer0/okr-tracker/issues/12)
-- [#13 — PWA support](https://github.com/rsmeurer0/okr-tracker/issues/13)
