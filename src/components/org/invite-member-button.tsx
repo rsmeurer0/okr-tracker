@@ -76,7 +76,7 @@ export function InviteMemberButton({ orgSlug }: InviteMemberButtonProps) {
           </div>
           <div className="space-y-2">
             <Label htmlFor="role">Role</Label>
-            <Select defaultValue="org_member" onValueChange={(v) => setValue('role', v as 'org_admin' | 'org_member')}>
+            <Select defaultValue="org_member" onValueChange={(v) => { if (v) setValue('role', v as 'org_admin' | 'org_member') }}>
               <SelectTrigger>
                 <SelectValue />
               </SelectTrigger>
